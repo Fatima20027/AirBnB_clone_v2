@@ -9,6 +9,9 @@ from fabric.api import local
 
 
 def do_pack():
+    """
+    making an archive on web_static folder
+    """
     if not os.path.exists('versions'):
         os.mkdir('versions')
     time = datetime.now()
