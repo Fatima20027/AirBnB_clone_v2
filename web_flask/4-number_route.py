@@ -55,8 +55,7 @@ def number(n):
     """
     /number/<n>: display “n is a number” only if n is an integer
     """
-    num = int(n)
-    return f"{num} is a number"
+    return f"{n} is a number"
 
 
 if __name__ == '__main__':
